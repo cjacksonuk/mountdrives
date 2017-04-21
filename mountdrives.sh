@@ -50,29 +50,29 @@ userMessageTimeout=2; #time for message to appear for user in seconds
 #Mount Variables
 :' // Just uncomment / add as required
 
-Server_name[1]=192.168.2.103;   #IP or Server name		192.168.x.x
-Server_path[1]=;				        #Folder to mount		  folder
-Server_prot[1]=SMBFS; 			    #Protocol 				    AFP/SMBFS  
-Server_cred[1]=0;               #Credentials Fixed		1/0 = yes/no     if fixed use following variables / else use AD/OD/Local 
-Server_user[1]=;				        #Username
-Server_pass[1]=;				        #Password
-Server_meth[1]=OSA; 			      #Method					      SH or OSA		Sometime OSAScript handels differently  
+Server_name[1]=192.168.2.103;	#IP or Server name		192.168.x.x
+Server_path[1]=;		#Folder to mount		folder
+Server_prot[1]=SMBFS;		#Protocol			AFP/SMBFS  
+Server_cred[1]=0;               #Credentials Fixed		1/0 = yes/no	if fixed use following variables / else use AD/OD/Local 
+Server_user[1]=;		#Username
+Server_pass[1]=;		#Password
+Server_meth[1]=OSA;		#Method				SH or OSA	Sometime OSAScript handels differently  
 
-Server_name[2]=192.168.2.103;   #IP or Server name		192.168.x.x
-Server_path[2]=;				        #Folder to mount		  folder
-Server_prot[2]=SMBFS; 			    #Protocol 				    AFP/SMBFS  
-Server_cred[2]=0; 				      #Credentials Fixed		1/0 = yes/no     if fixed use following variables / else use AD/OD/Local 
-Server_user[2]=;				        #Username
-Server_pass[2]=;				        #Password
-Server_meth[2]=OSA; 			      #Method					      SH or OSA		Sometime OSAScript handels differently  
+Server_name[2]=192.168.2.103;	#IP or Server name		192.168.x.x
+Server_path[2]=;		#Folder to mount		folder
+Server_prot[2]=SMBFS;		#Protocol			AFP/SMBFS  
+Server_cred[2]=0;               #Credentials Fixed		1/0 = yes/no	if fixed use following variables / else use AD/OD/Local 
+Server_user[2]=;		#Username
+Server_pass[2]=;		#Password
+Server_meth[2]=OSA;		#Method				SH or OSA	Sometime OSAScript handels differently 
 
-Server_name[3]=192.168.2.103;   #IP or Server name		192.168.x.x
-Server_path[3]=;				        #Folder to mount		  folder
-Server_prot[3]=SMBFS; 			    #Protocol 				    AFP/SMBFS  
-Server_cred[3]=0; 				      #Credentials Fixed		1/0 = yes/no     if fixed use following variables / else use AD/OD/Local 
-Server_user[3]=;				        #Username
-Server_pass[3]=;				        #Password
-Server_meth[3]=OSA; 			      #Method					      SH or OSA		Sometime OSAScript handels differently  
+Server_name[3]=192.168.2.103;	#IP or Server name		192.168.x.x
+Server_path[3]=;		#Folder to mount		folder
+Server_prot[3]=SMBFS;		#Protocol			AFP/SMBFS  
+Server_cred[3]=0;               #Credentials Fixed		1/0 = yes/no	if fixed use following variables / else use AD/OD/Local 
+Server_user[3]=;		#Username
+Server_pass[3]=;		#Password
+Server_meth[3]=OSA;		#Method				SH or OSA	Sometime OSAScript handels differently 
 '
 
 ############### !!!!! NOTHING SHOULD NEED EDITING BELOW THIS LINE !!!!! ##############
